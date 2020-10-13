@@ -1,4 +1,10 @@
-# LayerNorm_GRU
+- [LayerNorm GRU](#LayerNorm-GRU) <br>
+    - [Why we need LayerNorm](#Why_we_need_LayerNorm) <br>
+    - [What is LayerNorm in GRU](#What_is_LayerNorm_in_GRU) <br>
+    - [How does it improve our model](#How_does_it_improve_our_model) <br>
+    - [References](#References) <br>
+
+# LayerNorm GRU
 * Implement layer normalization GRU in pytorch, followed the instruction from the paper [Layer normalization](https://arxiv.org/abs/1607.06450).
 * Code modified from [this repo](https://github.com/seba-1511/lstms.pth/blob/master/lstms/lstm.py).
 * Environment: Docker image ```pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime```
@@ -17,7 +23,7 @@ After passing them into LayerNorm, the new distributions lie inside (-4, +4), pe
 
 ## How does it improve our model
 
-The result from one of model for BCI 
+The result from one of my research in BCI (Brain-computer interface)
 ![](/Figures/loss_to_epoch.png)
 
 ## References
