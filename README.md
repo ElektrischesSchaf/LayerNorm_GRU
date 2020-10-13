@@ -1,7 +1,7 @@
 - [LayerNorm GRU](#LayerNorm-GRU) <br>
-    - [Why we need LayerNorm](#Why_we_need_LayerNorm) <br>
-    - [What is LayerNorm in GRU](#What_is_LayerNorm_in_GRU) <br>
-    - [How does it improve our model](#How_does_it_improve_our_model) <br>
+    - [Why we need LayerNorm](#Why-we-need-LayerNorm) <br>
+    - [What is LayerNorm in GRU](#What-is-LayerNorm-in-GRU) <br>
+    - [How does it improve our model](#How-does-it-improve-our-model) <br>
     - [References](#References) <br>
 
 # LayerNorm GRU
