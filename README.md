@@ -1,14 +1,15 @@
 # LayerNorm GRU
-## Introduction
-* Implement layer normalization GRU in pytorch, followed the instruction from the paper [Layer normalization](https://arxiv.org/abs/1607.06450).
-* Code modified from [this repository](https://github.com/seba-1511/lstms.pth/blob/master/lstms/lstm.py).
-* Environment: [Official pytorch docker image](https://hub.docker.com/r/pytorch/pytorch/tags) from [Docker Hub](https://hub.docker.com/) ```pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime```
-
-## Table of contents
+## Table of content
+- [Introduction and environment](#Introduction-and-environment) <br>
 - [Why we need LayerNorm](#Why-we-need-LayerNorm) <br>
 - [What is LayerNorm in GRU](#What-is-LayerNorm-in-GRU) <br>
 - [How does it improve our model](#How-does-it-improve-our-model) <br>
 - [References](#References) <br>
+
+## Introduction and environment
+* Implement layer normalization GRU in pytorch, followed the instruction from the paper [Layer normalization](https://arxiv.org/abs/1607.06450).
+* Code modified from [this repository](https://github.com/seba-1511/lstms.pth/blob/master/lstms/lstm.py).
+* Environment: [Official pytorch docker image](https://hub.docker.com/r/pytorch/pytorch/tags) from [Docker Hub](https://hub.docker.com/) ```pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime```
 
 ## Why we need LayerNorm
 Activation functions, such as tanh and sigmoid,
