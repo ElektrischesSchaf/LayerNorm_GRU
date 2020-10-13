@@ -9,6 +9,11 @@
 * Code modified from [this repo](https://github.com/seba-1511/lstms.pth/blob/master/lstms/lstm.py).
 * Environment: Docker image ```pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime```
 
+- [Why we need LayerNorm](#Why_we_need_LayerNorm) <br>
+- [What is LayerNorm in GRU](#What_is_LayerNorm_in_GRU) <br>
+- [How does it improve our model](#How_does_it_improve_our_model) <br>
+- [References](#References) <br>
+
 ## Why we need LayerNorm
 
 Activation functions, such as tanh and sigmoid, ![](/Figures/sigmoid_and_tanh.png) have saturation area, as showed the their first derivatives ![](/Figures/derivative_sigmoid_and_tanh.png). For the values outside (-4, +4), the output will be very close to zero, and their gradients might also vanish, incurring the gradient vanishing problem.  
