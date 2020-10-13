@@ -4,14 +4,12 @@
 * Environment: Docker image ```pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime```
 
 ## Why we need LayerNorm
+
 Activation functions, such as tanh and sigmoid, ![](/Figures/sigmoid_and_tanh.png) have saturation area, as showed the their first derivatives ![](/Figures/derivative_sigmoid_and_tanh.png). For the values outside (-4, +4), the output will be very close to zero, and their gradients might also vanish, incurring the gradient vanishing problem.  
 
-## What is LayerNorm in GRU
-The structure of a GRU cell ![](/Figures/GRU_cell.png) has two tanh and one sigmoid function, 
-with the equation:
-![](/Figures/GRU_eq.png)
-and the equation of a LN-GRU cell is:
-![](/Figures/LN-GRU_eq.png) 
+## What is LayerNorm in GRU  
+
+The structure of a GRU cell ![](/Figures/GRU_cell.png) has two tanh and one sigmoid function, with the equation: ![](/Figures/GRU_eq.png) and the equation of a LN-GRU cell is: ![](/Figures/LN-GRU_eq.png) 
 ---
 For more insight, where we simulate two extreme distributions of data:
 ![](/Figures/activation_histogram_before.png)
@@ -19,6 +17,7 @@ After passing them into LayerNorm, the new distributions lie inside (-4, +4), pe
 ![](/Figures/activation_histogram_after.png)
 
 ## How does it improve our model
+
 The result from one of model for BCI 
 ![](/Figures/loss_to_epoch.png)
 
