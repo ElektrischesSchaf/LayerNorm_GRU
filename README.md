@@ -9,8 +9,7 @@ Activation functions, such as tanh and sigmoid, ![](/Figures/sigmoid_and_tanh.pn
 
 ## What is LayerNorm in GRU
 
-The structure of a GRU cell ![](/Figures/GRU_cell.png) has two tanh and one sigmoid function, with the equation: ![](/Figures/GRU_eq.png) and the equation of a LN-GRU cell is: ![](/Figures/LN-GRU_eq.png) 
----
+The structure of a GRU cell ![](/Figures/GRU_cell.png) has two tanh and one sigmoid function, with the equation: ![](/Figures/GRU_eq.png) and the equation of a LN-GRU cell is: ![](/Figures/LN-GRU_eq.png)  
 For more insight, where we simulate two extreme distributions of data:
 ![](/Figures/activation_histogram_before.png)
 After passing them into LayerNorm, the new distributions lie inside (-4, +4), perfect working area for activation functions.
