@@ -1,5 +1,5 @@
 # LayerNorm GRU 
-## Table of content
+## Table of contents
 - [Introduction and environment](#Introduction-and-environment) <br>
 - [Why we need LayerNorm](#Why-we-need-LayerNorm) <br>
 - [What is LayerNorm in GRU](#What-is-LayerNorm-in-GRU) <br>
