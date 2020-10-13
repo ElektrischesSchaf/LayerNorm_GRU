@@ -1,7 +1,7 @@
 ## LayerNorm_GRU
 * Implement layer normalization GRU in pytorch, followed the instruction from the paper [Layer normalization](https://arxiv.org/abs/1607.06450).
 * Code modified from [this repo](https://github.com/seba-1511/lstms.pth/blob/master/lstms/lstm.py).
-* Environment: docker image 
+* Environment: Docker image ```pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime```
 
 ### Why we need LayerNorm
 Activation functions ![](/Figures/sigmoid_and_tanh.png) have saturation area, as showed the their first derivatives ![](/Figures/derivative_sigmoid_and_tanh.png).
