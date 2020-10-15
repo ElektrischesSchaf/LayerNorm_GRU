@@ -13,7 +13,7 @@
 
 ## Why we need LayerNorm
 Activation functions, such as tanh and sigmoid have saturation area, as showed the their first derivatives.
-Sigmoid and Hyperbolic tangent(tanh) | First derivatives
+Sigmoid and hyperbolic tangent (tanh) | First derivatives
 :-------------------------:|:-------------------------:
 ![](/Figures/sigmoid_and_tanh.png)  | ![](/Figures/derivative_sigmoid_and_tanh.png)
 
