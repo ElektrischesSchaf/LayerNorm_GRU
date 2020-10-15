@@ -20,14 +20,18 @@ Sigmoid and tanh           | First derivatives
 For the values outside (-4, +4), the output will be very close to zero, and their gradients might also vanish, incurring the gradient vanishing problem.  
 
 ## What is LayerNorm in GRU
-The structure of a GRU cell ![](/Figures/GRU_cell.png) has two tanh and one sigmoid function, with the equation: 
-![](/Figures/GRU_eq.png)  
-and the equation of a LN-GRU cell is: 
-![](/Figures/LN-GRU_eq.png)  
-For more insight, where we simulate two extreme distributions of data:
-![](/Figures/activation_histogram_before.png)
+The structure of a GRU cell ![](/Figures/GRU_cell.png) has two tanh and one sigmoid function. 
+The following show the mathematical equations for original GRU and LayerNorm GRU.
+
+Original GRU              | LayerNorm GRU
+:------------------------:|:-------------------------:
+![](/Figures/GRU_eq.png)  | ![](/Figures/LN-GRU_eq.png)
+
+For more insight, where we simulate two extreme distributions of data and show the before and after effect of LayerNorm.
+Before LayerNorm          | After LayerNorm
+:------------------------:|:-------------------------:
+![](/Figures/activation_histogram_before.png)  | ![](/Figures/activation_histogram_after.png)
 After passing them into LayerNorm, the new distributions lie inside (-4, +4), perfect working area for activation functions.
-![](/Figures/activation_histogram_after.png)
 
 ## How does it improve our model
 The result from one of my research in BCI (Brain-computer interface)
