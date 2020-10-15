@@ -12,10 +12,11 @@
 * Environment: [Official pytorch docker image](https://hub.docker.com/r/pytorch/pytorch/tags) from [Docker Hub](https://hub.docker.com/) ```pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime```
 
 ## Why we need LayerNorm
-Activation functions, such as tanh and sigmoid,
-![](/Figures/sigmoid_and_tanh.png)  
-have saturation area, as showed the their first derivatives 
-![](/Figures/derivative_sigmoid_and_tanh.png)  
+Activation functions, such as tanh and sigmoid have saturation area, as showed the their first derivatives.
+Sigmoid and tanh           | First derivatives
+:-------------------------:|:-------------------------:
+![](/Figures/sigmoid_and_tanh.png)  | ![](/Figures/derivative_sigmoid_and_tanh.png)
+
 For the values outside (-4, +4), the output will be very close to zero, and their gradients might also vanish, incurring the gradient vanishing problem.  
 
 ## What is LayerNorm in GRU
