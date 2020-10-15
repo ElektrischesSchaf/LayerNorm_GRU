@@ -9,7 +9,7 @@
 ## Introduction and environment
 * Implement layer normalization GRU in pytorch, followed the instruction from the paper [Layer normalization](https://arxiv.org/abs/1607.06450).
 * Code modified from [this repository](https://github.com/seba-1511/lstms.pth/blob/master/lstms/lstm.py).
-* Our research has exerted this technique in predicting kinematic variables from invasive brain-computer interface (BCI) dataset, [Nonhuman Primate Reaching with Multichannel Sensorimotor Cortex Electrophysiology](https://zenodo.org/record/583331), also see the article [Superior arm-movement decoding from cortex with a new, unsupervised-learning algorithm](https://pubmed.ncbi.nlm.nih.gov/29192609/).
+* Our research has exerted this technique in predicting kinematic variables from invasive brain-computer interface (BCI) dataset, [Nonhuman Primate Reaching with Multichannel Sensorimotor Cortex Electrophysiology](https://zenodo.org/record/583331). For more information regarding this dataset, please see the article [Superior arm-movement decoding from cortex with a new, unsupervised-learning algorithm](https://pubmed.ncbi.nlm.nih.gov/29192609/).
 * Environment: [Official pytorch docker image](https://hub.docker.com/r/pytorch/pytorch/tags) from [Docker Hub](https://hub.docker.com/) ```pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime```
 
 ## Why we need LayerNorm
