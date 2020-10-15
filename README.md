@@ -36,7 +36,7 @@ Before LayerNorm          | After LayerNorm
 After passing them into LayerNorm, the new distributions lie inside (-4, +4), perfect working area for activation functions.
 
 ## How does it improve our model
-The result from one of my research in BCI.
+The result from one of my GRU models in BCI.
 ![](/Figures/loss_to_epoch.png)
 
 ## References
