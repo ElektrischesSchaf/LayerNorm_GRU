@@ -31,6 +31,7 @@ For more insight, where we simulate two extreme distributions of data and show t
 Before LayerNorm          | After LayerNorm
 :------------------------:|:-------------------------:
 ![](/Figures/activation_histogram_before.png)  | ![](/Figures/activation_histogram_after.png)
+
 After passing them into LayerNorm, the new distributions lie inside (-4, +4), perfect working area for activation functions.
 
 ## How does it improve our model
