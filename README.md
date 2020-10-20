@@ -37,7 +37,7 @@ After passing them into LayerNorm, the new distributions lie inside (-4, +4), pe
 
 ## How does it improve our model
 The result from one of my GRU models in BCI.
-![](/Figures/loss_to_epoch.png)
+![](/Figures/loss_to_epoch.png | width=100)
 
 ## References
 Ba, Jimmy Lei, Jamie Ryan Kiros, and Geoffrey E. Hinton. "Layer normalization." arXiv preprint arXiv:1607.06450 (2016)
