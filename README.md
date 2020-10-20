@@ -21,7 +21,10 @@ Sigmoid and hyperbolic tangent (tanh) | First derivatives
 For the values outside (-4, +4), the output will be very close to zero, and their gradients might also vanish, incurring the gradient vanishing problem.  
 
 ## What is LayerNorm in GRU
-The structure of a GRU cell ![](/Figures/GRU_cell.png) has two tanh and one sigmoid function. 
+The structure of a GRU cell 
+<!-- ![](/Figures/GRU_cell.png)  -->
+<img src="./Figures/GRU_cell.png" width="300" >
+has two tanh and one sigmoid function. 
 The following show the mathematical equations for original GRU and LayerNorm GRU.
 
 Original GRU              | LayerNorm GRU
