@@ -23,7 +23,7 @@ For the values outside (-4, +4), the output will be very close to zero, and thei
 ## What is LayerNorm in GRU
 The structure of a GRU cell 
 <!-- ![](/Figures/GRU_cell.png)  -->
-<img src="./Figures/GRU_cell.png" width="300" >
+<img src="./Figures/GRU_cell.png" width="400" >
 has two tanh and one sigmoid function. 
 The following show the mathematical equations for original GRU and LayerNorm GRU.
 
@@ -41,7 +41,7 @@ After passing them into LayerNorm, the new distributions lie inside (-4, +4), pe
 ## How does it improve our model
 The result from one of my GRU models in BCI.
 <!-- ![](/Figures/loss_to_epoch.png) -->
-<img src="./Figures/loss_to_epoch.png" width="300" >
+<img src="./Figures/loss_to_epoch.png" width="400" >
 
 ## References
 Ba, Jimmy Lei, Jamie Ryan Kiros, and Geoffrey E. Hinton. "Layer normalization." arXiv preprint arXiv:1607.06450 (2016)
