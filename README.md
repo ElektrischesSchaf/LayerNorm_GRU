@@ -1,3 +1,25 @@
+<style>
+/* phone view, 100-750px */
+@media (min-width: 0px) and (max-width:750px){
+    img[alt=profilePic]{
+        width:250px;
+        /* visibility: hidden; */
+    }
+}
+
+/* desktop view, >750px */
+@media (max-width:750px){
+    img[alt=profilePic]{
+        width:285px;
+        float: left;
+        padding-right: 35px;
+        padding-top: 15px
+        /* visibility: visible; */
+    }
+}
+
+</style>
+
 # LayerNorm GRU 
 ## Table of contents
 - [Introduction and environment](#Introduction-and-environment) <br>
@@ -37,7 +59,8 @@ After passing them into LayerNorm, the new distributions lie inside (-4, +4), pe
 
 ## How does it improve our model
 The result from one of my GRU models in BCI.
-![](/Figures/loss_to_epoch.png)
+<!-- ![](/Figures/loss_to_epoch.png) -->
+<img src="./Figures/loss_to_epoch.png" alt="profilePic"  height="whatever" >
 
 ## References
 Ba, Jimmy Lei, Jamie Ryan Kiros, and Geoffrey E. Hinton. "Layer normalization." arXiv preprint arXiv:1607.06450 (2016)
