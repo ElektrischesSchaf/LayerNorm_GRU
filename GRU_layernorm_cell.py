@@ -57,7 +57,7 @@ class LayerNormGRUCell(torch.nn.Module):
 
         h_hat = torch.tanh(  h_hat_first_half + torch.mul(r_t,   h_hat_last_half ) )
 
-        h_t = torch.mul( 1-z_t , h ) + torch.mul( z_t, h_hat)
+        h_t = torch.mul( 1-z_t , h_hat ) + torch.mul( z_t, h)
 
         # Reshape for compatibility
 
