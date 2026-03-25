@@ -1,5 +1,6 @@
 # LayerNorm GRU 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--1854--4003-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-1854-4003)
+[![License](https://img.shields.io/github/license/ElektrischesSchaf/LayerNorm_GRU)](./LICENSE)
 ## Table of contents
 - [Introduction and environment](#Introduction-and-environment) <br>
 - [Why we need LayerNorm](#Why-we-need-LayerNorm) <br>
